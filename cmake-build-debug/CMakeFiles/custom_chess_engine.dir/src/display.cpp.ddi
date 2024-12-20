@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/custom_chess_engine.dir/src/display.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

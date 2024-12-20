@@ -1,0 +1,22 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Repositories/custom-chess-engine/cmake-build-debug",
+	"dir-cur-src" : "C:/Repositories/custom-chess-engine",
+	"dir-top-bld" : "C:/Repositories/custom-chess-engine/cmake-build-debug",
+	"dir-top-src" : "C:/Repositories/custom-chess-engine",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Repositories\\custom-chess-engine\\include",
+		"_deps\\sfml-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Repositories/custom-chess-engine/cmake-build-debug/CMakeFiles/custom_chess_engine.dir"
+}

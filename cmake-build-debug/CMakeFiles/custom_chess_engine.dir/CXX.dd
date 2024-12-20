@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/custom_chess_engine.dir/src/main.cpp.obj: dyndep
+
+build CMakeFiles/custom_chess_engine.dir/src/board.cpp.obj: dyndep
+
+build CMakeFiles/custom_chess_engine.dir/src/display.cpp.obj: dyndep
+
