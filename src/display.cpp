@@ -99,10 +99,10 @@ int CreateGraphicalBoard(Board board) {
                 uint8_t byte = board.board[i];
 
                 for (int nibbleIdx = 0; nibbleIdx < 2; nibbleIdx++) {
-                    uint8_t nibble = (nibbleIdx == 0) ? (byte >> 4) : (byte & 0b1111);
+                    uint8_t nibble = nibbleIdx == 0 ? byte >> 4 : byte & 0b1111;
 
-                    bool isWhite = ((nibble & 0b1000) == 0b0000);
-                    uint8_t piece = (nibble & 0b0111);
+                    bool isWhite = (nibble & 0b1000) == 0b0000;
+                    uint8_t piece = nibble & 0b0111;
 
                     if (piece != NONE) {
                         int pieceIndex = piece - 1 + (!isWhite ? 6 : 0);
